@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "status": "template_not_a_locked_build",
+  "board_part": null,
+  "board_revision": null,
+  "vivado_version": null,
+  "petalinux_version": null,
+  "kernel_commit": null,
+  "hdl_commit": null,
+  "compiler_version": null,
+  "simulation_tool_version": null,
+  "vendor_ip": [],
+  "abi_version": null,
+  "profile_config_sha256": null,
+  "calibration_id": null,
+  "patch_sha256": [],
+  "release_signing_key_id": null,
+  "note": "Never insert private keys or credentials; all null fields must be resolved for production release"
+}

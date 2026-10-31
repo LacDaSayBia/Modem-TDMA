@@ -1,0 +1,122 @@
+[
+  {
+    "id": "M01",
+    "title": "M01 — Phân tích yêu cầu, profile, ICD và quỹ đường truyền",
+    "path": "03_Mo_dun/M01_Yeu_cau_profile_ICD_link_budget.md",
+    "bytes": 9338
+  },
+  {
+    "id": "M02",
+    "title": "M02 — Mô hình tham chiếu và test vectors",
+    "path": "03_Mo_dun/M02_Golden_model_va_vector.md",
+    "bytes": 8471
+  },
+  {
+    "id": "M03",
+    "title": "M03 — Board SoC/FPGA, nguồn, bộ nhớ và khả năng kiểm tra",
+    "path": "03_Mo_dun/M03_Board_nguon_bo_nho_DFT.md",
+    "bytes": 8465
+  },
+  {
+    "id": "M04",
+    "title": "M04 — RF/IFL và tích hợp BUC/LNB",
+    "path": "03_Mo_dun/M04_RF_IFL_ODU.md",
+    "bytes": 8458
+  },
+  {
+    "id": "M05",
+    "title": "M05 — Clock vật lý, reference và reset",
+    "path": "03_Mo_dun/M05_Clock_reset_reference.md",
+    "bytes": 8465
+  },
+  {
+    "id": "M06",
+    "title": "M06 — AD9361 interface, điều khiển và luồng sample",
+    "path": "03_Mo_dun/M06_AD9361_interface_sample.md",
+    "bytes": 8324
+  },
+  {
+    "id": "M07",
+    "title": "M07 — Giao tiếp liên FPGA",
+    "path": "03_Mo_dun/M07_Lien_FPGA.md",
+    "bytes": 8237
+  },
+  {
+    "id": "M08",
+    "title": "M08 — Bộ phát DVB-S2 tại HUB",
+    "path": "03_Mo_dun/M08_DVB_S2_TX_HUB.md",
+    "bytes": 8230
+  },
+  {
+    "id": "M09",
+    "title": "M09 — Bộ thu DVB-S2 tại VSAT trước FEC",
+    "path": "03_Mo_dun/M09_DVB_S2_RX_truoc_FEC.md",
+    "bytes": 8454
+  },
+  {
+    "id": "M10",
+    "title": "M10 — FEC BCH/LDPC downstream",
+    "path": "03_Mo_dun/M10_BCH_LDPC_FEC_downstream.md",
+    "bytes": 8502
+  },
+  {
+    "id": "M11",
+    "title": "M11 — FEC Turbo upstream",
+    "path": "03_Mo_dun/M11_Turbo_FEC_upstream.md",
+    "bytes": 8583
+  },
+  {
+    "id": "M12",
+    "title": "M12 — Bộ phát burst upstream tại VSAT",
+    "path": "03_Mo_dun/M12_Burst_TX_VSAT.md",
+    "bytes": 8277
+  },
+  {
+    "id": "M13",
+    "title": "M13 — Bộ thu burst đa carrier tại HUB",
+    "path": "03_Mo_dun/M13_Burst_RX_da_carrier_HUB.md",
+    "bytes": 8559
+  },
+  {
+    "id": "M14",
+    "title": "M14 — Network time, hardware timestamp và timed TX",
+    "path": "03_Mo_dun/M14_Network_time_timestamp_timed_TX.md",
+    "bytes": 8666
+  },
+  {
+    "id": "M15",
+    "title": "M15 — Ranging và vòng điều khiển timing/frequency/power",
+    "path": "03_Mo_dun/M15_Ranging_frequency_power_control.md",
+    "bytes": 8725
+  },
+  {
+    "id": "M16",
+    "title": "M16 — MAC, signalling, logon và NCC scheduler",
+    "path": "03_Mo_dun/M16_MAC_NCC_signalling_scheduler.md",
+    "bytes": 8654
+  },
+  {
+    "id": "M17",
+    "title": "M17 — Linux/BSP, PS–PL, DMA và packet driver",
+    "path": "03_Mo_dun/M17_Linux_BSP_DMA_packet_driver.md",
+    "bytes": 8342
+  },
+  {
+    "id": "M18",
+    "title": "M18 — Encapsulation, IP datapath và QoS",
+    "path": "03_Mo_dun/M18_IP_encapsulation_QoS.md",
+    "bytes": 8294
+  },
+  {
+    "id": "M19",
+    "title": "M19 — NMS, bảo mật, update và recovery",
+    "path": "03_Mo_dun/M19_NMS_security_update_recovery.md",
+    "bytes": 8513
+  },
+  {
+    "id": "M20",
+    "title": "M20 — Tích hợp, calibration và kiểm chứng nghiệm thu",
+    "path": "03_Mo_dun/M20_Verification_calibration_acceptance.md",
+    "bytes": 8773
+  }
+]

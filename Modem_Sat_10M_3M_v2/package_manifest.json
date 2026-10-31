@@ -1,0 +1,304 @@
+{
+  "package_version": "2.0.0",
+  "change_id": "CR-002",
+  "date": "2026-10-31",
+  "kind": "design_documentation_not_tested_modem",
+  "module_count": 20,
+  "baseline_downstream_ip_peak_min_bps": 10000000,
+  "baseline_vsat_upstream_ip_peak_bps": 3000000,
+  "hub_upstream_aggregate_proposed_min_bps": 6000000,
+  "hardware_performance_verified": false,
+  "file_count": 60,
+  "files": [
+    {
+      "path": "00_Quan_ly/00_DOC_TRUOC.md",
+      "size_bytes": 6976,
+      "sha256": "4d5740915e4489a6ebff160e01e9fa779ad0c2ad852e02c94d1cdb3efe9e528d"
+    },
+    {
+      "path": "00_Quan_ly/CHANGELOG_CR002.md",
+      "size_bytes": 1558,
+      "sha256": "17c642e9a0e82a237c3c723b70af9c7e114d7c59aed56f944f3451b97148bb1d"
+    },
+    {
+      "path": "00_Quan_ly/Thuat_ngu_va_lo_trinh_doc.md",
+      "size_bytes": 3091,
+      "sha256": "0bda2407eb4c3017dd6c24848f7d0a7a7a42c768986eba93e1a31b8746ec4dcb"
+    },
+    {
+      "path": "00_Quan_ly/module_index.json",
+      "size_bytes": 3284,
+      "sha256": "a63387dea90902ffc9b947794c0335248b08cfb67ce46b39db9a830d56d3b2d0"
+    },
+    {
+      "path": "01_Yeu_cau/01_Pham_vi_va_kha_thi.md",
+      "size_bytes": 11950,
+      "sha256": "e81edb1d8f056f5eeb839d9659b201d7bbc4707ee48422ae2be1a28ed7865b59"
+    },
+    {
+      "path": "01_Yeu_cau/CR002_Baseline_10M_3M.md",
+      "size_bytes": 6068,
+      "sha256": "60c006a74910e8e9622a7d4861c44480b16618ce90edb981824e7206dda64c57"
+    },
+    {
+      "path": "01_Yeu_cau/Chi_tieu_tinh_nang_Modem_HUB_va_VSAT.md",
+      "size_bytes": 24463,
+      "sha256": "92f61a6a13135016cac32bec0d1535a6b0c70fc9c454d041a7f39fa289cd7cc6"
+    },
+    {
+      "path": "02_Kien_truc/02_Kien_truc_he_thong_va_giao_thuc.md",
+      "size_bytes": 10902,
+      "sha256": "e08b98ff5a0c30d3b7ad886dc6d45e791ac7753a22d8c50a16724314233274f6"
+    },
+    {
+      "path": "02_Kien_truc/03_Phan_cung_RF_clock_va_lien_FPGA.md",
+      "size_bytes": 12875,
+      "sha256": "07a8d00544f979477f7876cb78265adc75639ec2a2cba1fca735aec7fedf649f"
+    },
+    {
+      "path": "02_Kien_truc/04_PHY_DVB_S2_MF_TDMA_va_FEC.md",
+      "size_bytes": 13126,
+      "sha256": "a7225073b53ab1f9a23cf83f9ab5b4d478df9322afdd2e396e3a15a98881d998"
+    },
+    {
+      "path": "02_Kien_truc/05_Dong_bo_thoi_gian_va_ranging.md",
+      "size_bytes": 16568,
+      "sha256": "c8d1b5ff8b1f69ae0672c7c6d9dff852cbf7f392d81cd6acfec0d3540d520fc0"
+    },
+    {
+      "path": "02_Kien_truc/06_Phan_mem_nhung_MAC_NCC_va_NMS.md",
+      "size_bytes": 10990,
+      "sha256": "98564eeaa5bc263d6b8c8bbeb2440bce89dee1cfdda43c067a6e5067e02cf6e8"
+    },
+    {
+      "path": "02_Kien_truc/Phan_tich_yeu_cau_va_phuong_an_ky_thuat_Modem_HUB_VSAT.md",
+      "size_bytes": 69112,
+      "sha256": "a00cde6fedfdebf987b2a715d4ba551a6c2133813e0698c023b93b0ff9844b8b"
+    },
+    {
+      "path": "03_Mo_dun/M01_Yeu_cau_profile_ICD_link_budget.md",
+      "size_bytes": 9338,
+      "sha256": "b477316aec9ea1d92422f51fa7d0015fcff59063dbaf3e21b3ad7696d2afe734"
+    },
+    {
+      "path": "03_Mo_dun/M02_Golden_model_va_vector.md",
+      "size_bytes": 8471,
+      "sha256": "7ea4f853edb36d4325d7eadef7cbab58ecc4c8a9d956825e8f1690673def6e3d"
+    },
+    {
+      "path": "03_Mo_dun/M03_Board_nguon_bo_nho_DFT.md",
+      "size_bytes": 8465,
+      "sha256": "f61eb4f990cbdebc24b88e0877afa6271ef0fa708dcf9e4459d3aa3be32411bf"
+    },
+    {
+      "path": "03_Mo_dun/M04_RF_IFL_ODU.md",
+      "size_bytes": 8458,
+      "sha256": "871b99fc5f4a2d24faf7ad9f0e81afe01d0c71778c4fcd8668509ed40bbf31ed"
+    },
+    {
+      "path": "03_Mo_dun/M05_Clock_reset_reference.md",
+      "size_bytes": 8465,
+      "sha256": "e9d8784f900a417e7966a98a49ad5725ce4d67bf3216778c1330960b8e246886"
+    },
+    {
+      "path": "03_Mo_dun/M06_AD9361_interface_sample.md",
+      "size_bytes": 8324,
+      "sha256": "7b052b53d2bb2adc87db25bb3a23854ef77d464fad17a4c7339273b9aae6860a"
+    },
+    {
+      "path": "03_Mo_dun/M07_Lien_FPGA.md",
+      "size_bytes": 8237,
+      "sha256": "d4a996284b4e2a6d72adfac9295e813b1d7dff37bd75173e9a6708843f57d10e"
+    },
+    {
+      "path": "03_Mo_dun/M08_DVB_S2_TX_HUB.md",
+      "size_bytes": 8230,
+      "sha256": "5bb3cba74c58a60e8c2134e0b3bc9d9598cf9514311890f5c7d0d20efa3d85ea"
+    },
+    {
+      "path": "03_Mo_dun/M09_DVB_S2_RX_truoc_FEC.md",
+      "size_bytes": 8454,
+      "sha256": "f397b7e7d3402d2a2720b1ea1e9da7611d8b45a4bac7af0806fe80c6df22bb08"
+    },
+    {
+      "path": "03_Mo_dun/M10_BCH_LDPC_FEC_downstream.md",
+      "size_bytes": 8502,
+      "sha256": "65c514ab732aeb44303360de569503c8628f9ea983010d6af817d19eb3fae1bb"
+    },
+    {
+      "path": "03_Mo_dun/M11_Turbo_FEC_upstream.md",
+      "size_bytes": 8583,
+      "sha256": "e27688546e524b9867020c93e881b950c61436abdc399593556544aed33deca3"
+    },
+    {
+      "path": "03_Mo_dun/M12_Burst_TX_VSAT.md",
+      "size_bytes": 8277,
+      "sha256": "5bc7b2887740f4442e27b5cfcec2ea57fd9ddbe42cb6a6250c5bae6346ae0988"
+    },
+    {
+      "path": "03_Mo_dun/M13_Burst_RX_da_carrier_HUB.md",
+      "size_bytes": 8559,
+      "sha256": "93a4617c4fef22188acd4257b41f9120249cf38bffa67e5afdac0b38826df69b"
+    },
+    {
+      "path": "03_Mo_dun/M14_Network_time_timestamp_timed_TX.md",
+      "size_bytes": 8666,
+      "sha256": "9776315167dd780ac1974ce689cddf25f4aad8efdbc172d7936773fdf92cada2"
+    },
+    {
+      "path": "03_Mo_dun/M15_Ranging_frequency_power_control.md",
+      "size_bytes": 8725,
+      "sha256": "4d29b59439b1294e4d7cb272a9663208fa83d8354faaeda958fcfea9eb92e50b"
+    },
+    {
+      "path": "03_Mo_dun/M16_MAC_NCC_signalling_scheduler.md",
+      "size_bytes": 8654,
+      "sha256": "0a69b95042a6d4b81bf83d5ae8f4df29d3600c3b0afd12d44e4fc48e504db33d"
+    },
+    {
+      "path": "03_Mo_dun/M17_Linux_BSP_DMA_packet_driver.md",
+      "size_bytes": 8342,
+      "sha256": "62accba0b7ed0377bd5e2355902fb72d8eae82f63592566f91a47d91118e563d"
+    },
+    {
+      "path": "03_Mo_dun/M18_IP_encapsulation_QoS.md",
+      "size_bytes": 8294,
+      "sha256": "a92bb062832a69bf3db28f462b892ddea188b83684f8aa9657b82d845bea7218"
+    },
+    {
+      "path": "03_Mo_dun/M19_NMS_security_update_recovery.md",
+      "size_bytes": 8513,
+      "sha256": "99a6076fd045177bddaafe112e9d8e28e5cb13f6c09570558940e06cacb36f4c"
+    },
+    {
+      "path": "03_Mo_dun/M20_Verification_calibration_acceptance.md",
+      "size_bytes": 8773,
+      "sha256": "f08de9dc08fe3a192ca5c2d4bd8f60cfdca86a9ffffced8bdb7f29f5c0899b36"
+    },
+    {
+      "path": "04_Quy_uoc/00_Bo_quy_uoc_project.md",
+      "size_bytes": 4802,
+      "sha256": "ba4d05eb27359046ad7ae92a7b0f219517c99d7871050c5f665a8049cdea8338"
+    },
+    {
+      "path": "04_Quy_uoc/01_Repo_ID_Git_va_tai_lieu.md",
+      "size_bytes": 4238,
+      "sha256": "2bc121900d7c04842d43adf8174101fe48c08ded3a46e9f30b943137067da562"
+    },
+    {
+      "path": "04_Quy_uoc/02_RTL_clock_reset_CDC_constraints.md",
+      "size_bytes": 3986,
+      "sha256": "ea8605e6f70abfaa6863dca0e5aa9de904da29c9ab2699e5c3cf61feeea53151"
+    },
+    {
+      "path": "04_Quy_uoc/03_DSP_don_vi_fixedpoint_IQ.md",
+      "size_bytes": 4114,
+      "sha256": "67c66ce9d1ec55f87f348f146e10df016a0eb081a46c1b4f5eb33c9772cb115e"
+    },
+    {
+      "path": "04_Quy_uoc/04_Time_epoch_timing_sign.md",
+      "size_bytes": 4677,
+      "sha256": "448f11d8af8380f05f8cd43199fe9a91d31a32ad51dc21ac9cc2577712b4e24a"
+    },
+    {
+      "path": "04_Quy_uoc/05_Interface_ABI_wire_DMA.md",
+      "size_bytes": 4958,
+      "sha256": "9ceb5f30a0229fd878498dd75a91ee64d40956bbbe7a525c5b03752183bf2ad1"
+    },
+    {
+      "path": "04_Quy_uoc/06_Verification_trace_va_calibration.md",
+      "size_bytes": 3666,
+      "sha256": "dba19e3f1c981f9b447e7c9d14d0a0f8e2d1270f7509105dec2544f1659434cf"
+    },
+    {
+      "path": "04_Quy_uoc/07_Build_release_security_license.md",
+      "size_bytes": 3675,
+      "sha256": "286966aeff103349cc4d0476d78742fc89d7b8d1aeecc352608ca975823994ea"
+    },
+    {
+      "path": "04_Quy_uoc/08_HW_RF_calibration_va_bien_ban.md",
+      "size_bytes": 3273,
+      "sha256": "60ee8539b9c0df449ab3fc96addb605c8bcd2d5501988b7be4b5d7d70845d8e3"
+    },
+    {
+      "path": "05_Ke_hoach_va_Kiem_thu/07_WBS_nhan_luc_va_lo_trinh_24_thang.md",
+      "size_bytes": 16005,
+      "sha256": "82d06a3ea4a54b4c3b03c2b13afe7e1cee29ad5f81764479231250388a9db48d"
+    },
+    {
+      "path": "05_Ke_hoach_va_Kiem_thu/08_Kiem_thu_nghiem_thu_rui_ro_va_chi_phi.md",
+      "size_bytes": 15324,
+      "sha256": "6af1a9948994b761297ef007ddad59786b2389dc57d0eddf86ce334e5acf9e56"
+    },
+    {
+      "path": "05_Ke_hoach_va_Kiem_thu/Acceptance_v2.md",
+      "size_bytes": 2579,
+      "sha256": "e6268122e9a5dcb7dd164b5a2a2b0902380791bc76fb0fa22815ee8c9a010a9b"
+    },
+    {
+      "path": "05_Ke_hoach_va_Kiem_thu/Ket_qua_kiem_tra_ho_so_v2.md",
+      "size_bytes": 760,
+      "sha256": "4c4330fd102a8cf43ab3e07cfaab92e638c5761a0830fddc8f7d9a1350e72afd"
+    },
+    {
+      "path": "06_Nguon/09_Nguon_tham_khao_va_truy_vet.md",
+      "size_bytes": 15585,
+      "sha256": "ae33aa6ffadc4fe7b17069279df6ff5e5e24f0203f89b8ad9955a435fca2054d"
+    },
+    {
+      "path": "06_Nguon/Nguon_kiem_chung_v2.md",
+      "size_bytes": 5278,
+      "sha256": "47af9d25cd8388a08c5f9b4137cdabc806cf3c38f623fc16a2648ba7262009e6"
+    },
+    {
+      "path": "07_Bieu_mau/01_Requirement_template.md",
+      "size_bytes": 785,
+      "sha256": "f3ef3955c4c5006c003b8ef0f881e60e1d9d14d319042d02bde70a27172262e9"
+    },
+    {
+      "path": "07_Bieu_mau/02_ICD_template.md",
+      "size_bytes": 774,
+      "sha256": "37f2a33749806d22dbc603c5b0d5a4f0fc9b144e227a39d6afb21678cee27f03"
+    },
+    {
+      "path": "07_Bieu_mau/03_ADR_CR_template.md",
+      "size_bytes": 725,
+      "sha256": "35b79ca039e8d4aac8b6adf19aec1e5a156d0cc41069872ad9fbd3759a21453e"
+    },
+    {
+      "path": "07_Bieu_mau/04_Test_evidence_template.md",
+      "size_bytes": 650,
+      "sha256": "429bc4fc4d4035c295c0bbc12e97a52bcab68a1dfcdba8984d94a69bb059022e"
+    },
+    {
+      "path": "07_Bieu_mau/05_Calibration_template.md",
+      "size_bytes": 745,
+      "sha256": "11cef957abe2fdef8ef2d240b9e3224ba4e7f72a0c136558df43be28c62eb1da"
+    },
+    {
+      "path": "08_Cau_hinh/baseline_v2.json",
+      "size_bytes": 2314,
+      "sha256": "0610ccaba91cad3769d7d1f9d7589c1e491a694532cbbc42dcefbcd261c13ce0"
+    },
+    {
+      "path": "08_Cau_hinh/build_lock.template.json",
+      "size_bytes": 550,
+      "sha256": "cf34a3a9332bae4df24b92e074c7e25cd135cae26f61410f0b48367e7f7d1b86"
+    },
+    {
+      "path": "09_Tools/validate_docs.py",
+      "size_bytes": 4939,
+      "sha256": "d58b8207ae64e3adc9e7565a300f94c15ea9a7125acfc32b3eeebaa00034c7a8"
+    },
+    {
+      "path": "FILE_INDEX.md",
+      "size_bytes": 4963,
+      "sha256": "86556d8d69d7b64b6015b078c2fa20a49dd18091e5deeb7ee2b9ef327a40447b"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4160,
+      "sha256": "3adde570bbc48cd4c5606c1cb12934dc7e47c0e2eca24e400c731204370bb293"
+    }
+  ]
+}

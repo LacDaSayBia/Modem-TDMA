@@ -1,0 +1,76 @@
+{
+  "document_version": "2.0.0",
+  "change_id": "CR-002",
+  "status": "design_proposal_not_measured",
+  "requirements": {
+    "hub_downstream_ip_peak_min_bps": 10000000,
+    "vsat_upstream_ip_peak_bps": 3000000,
+    "vsat_rx_ip_peak_min_bps": 10000000,
+    "hub_upstream_aggregate_proposed_min_bps": 6000000,
+    "aggregate_status": "derived_proposal_requires_baseline_review",
+    "simultaneous_upstream_carriers_min": 2,
+    "physical_vsats_min": 3,
+    "logical_vsats_simulated_min": 16
+  },
+  "profiles": {
+    "downstream": {
+      "id": "ds_qpsk_r12_nf_12m5_v1",
+      "status": "candidate_profile",
+      "standard": "DVB-S2 EN302307-1 V1.4.1",
+      "modulation": "QPSK",
+      "symbol_rate_hz": 12500000,
+      "fec": "BCH+LDPC",
+      "nominal_code_rate": [
+        1,
+        2
+      ],
+      "ldpc_n_bits": 64800,
+      "pilot": true,
+      "rolloff": 0.25
+    },
+    "upstream": {
+      "id": "us_qpsk_tc_lm_5m_candidate_v1",
+      "status": "candidate_waveform_not_selected",
+      "modulation": "QPSK",
+      "symbol_rate_hz": 5000000,
+      "fec_family": "Turbo TC-LM",
+      "target_nominal_code_rate": [
+        1,
+        2
+      ],
+      "waveform_id": null,
+      "block_size_bits": null,
+      "note": "M11 must select exact valid waveform before acceptance"
+    }
+  },
+  "timing": {
+    "arrival_error_target_symbol_fraction": 0.25,
+    "max_upstream_arrival_error_target_ns": 50,
+    "target_status": "proposal_requires_hardware_validation",
+    "candidate_sample_rate_hz": 30720000,
+    "candidate_clock_plan_status": "not_board_verified",
+    "forward_delay_test_range_ms": [
+      200,
+      300
+    ],
+    "return_delay_test_range_ms": [
+      200,
+      300
+    ]
+  },
+  "measurement": {
+    "protocol": "UDP",
+    "ip_packet_len_bytes": 1500,
+    "measurement_interval_min_s": 600,
+    "throughput_count": "successfully_delivered_IP_packet_bytes",
+    "peak_packet_loss_proposed_max": 1e-05,
+    "loss_criterion_status": "proposed",
+    "soak_min_hours": 72
+  },
+  "limitations": [
+    "No guarantee all three VSATs simultaneously achieve3Mbit/s on aggregate6Mbit/s",
+    "No measured performance supplied in this documentation package",
+    "Private MF-TDMA protocol is not full DVB-RCS2 conformance",
+    "Header/ABI schema proposals require ICD review before implementation"
+  ]
+}

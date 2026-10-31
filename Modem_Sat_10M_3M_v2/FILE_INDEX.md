@@ -1,0 +1,74 @@
+# Chỉ mục cây thư mục hồ sơ v2
+
+Các đường dẫn dưới đây là file thực trong ZIP. Các thư mục mô tả nhiệm vụ, không phải tên Library hay source code modem đã hoàn thiện.
+
+- **00_Quan_ly/**
+  - [00_DOC_TRUOC.md](00_Quan_ly/00_DOC_TRUOC.md)
+  - [CHANGELOG_CR002.md](00_Quan_ly/CHANGELOG_CR002.md)
+  - [Thuat_ngu_va_lo_trinh_doc.md](00_Quan_ly/Thuat_ngu_va_lo_trinh_doc.md)
+  - [module_index.json](00_Quan_ly/module_index.json)
+- **01_Yeu_cau/**
+  - [01_Pham_vi_va_kha_thi.md](01_Yeu_cau/01_Pham_vi_va_kha_thi.md)
+  - [CR002_Baseline_10M_3M.md](01_Yeu_cau/CR002_Baseline_10M_3M.md)
+  - [Chi_tieu_tinh_nang_Modem_HUB_va_VSAT.md](01_Yeu_cau/Chi_tieu_tinh_nang_Modem_HUB_va_VSAT.md)
+- **02_Kien_truc/**
+  - [02_Kien_truc_he_thong_va_giao_thuc.md](02_Kien_truc/02_Kien_truc_he_thong_va_giao_thuc.md)
+  - [03_Phan_cung_RF_clock_va_lien_FPGA.md](02_Kien_truc/03_Phan_cung_RF_clock_va_lien_FPGA.md)
+  - [04_PHY_DVB_S2_MF_TDMA_va_FEC.md](02_Kien_truc/04_PHY_DVB_S2_MF_TDMA_va_FEC.md)
+  - [05_Dong_bo_thoi_gian_va_ranging.md](02_Kien_truc/05_Dong_bo_thoi_gian_va_ranging.md)
+  - [06_Phan_mem_nhung_MAC_NCC_va_NMS.md](02_Kien_truc/06_Phan_mem_nhung_MAC_NCC_va_NMS.md)
+  - [Phan_tich_yeu_cau_va_phuong_an_ky_thuat_Modem_HUB_VSAT.md](02_Kien_truc/Phan_tich_yeu_cau_va_phuong_an_ky_thuat_Modem_HUB_VSAT.md)
+- **03_Mo_dun/**
+  - [M01_Yeu_cau_profile_ICD_link_budget.md](03_Mo_dun/M01_Yeu_cau_profile_ICD_link_budget.md)
+  - [M02_Golden_model_va_vector.md](03_Mo_dun/M02_Golden_model_va_vector.md)
+  - [M03_Board_nguon_bo_nho_DFT.md](03_Mo_dun/M03_Board_nguon_bo_nho_DFT.md)
+  - [M04_RF_IFL_ODU.md](03_Mo_dun/M04_RF_IFL_ODU.md)
+  - [M05_Clock_reset_reference.md](03_Mo_dun/M05_Clock_reset_reference.md)
+  - [M06_AD9361_interface_sample.md](03_Mo_dun/M06_AD9361_interface_sample.md)
+  - [M07_Lien_FPGA.md](03_Mo_dun/M07_Lien_FPGA.md)
+  - [M08_DVB_S2_TX_HUB.md](03_Mo_dun/M08_DVB_S2_TX_HUB.md)
+  - [M09_DVB_S2_RX_truoc_FEC.md](03_Mo_dun/M09_DVB_S2_RX_truoc_FEC.md)
+  - [M10_BCH_LDPC_FEC_downstream.md](03_Mo_dun/M10_BCH_LDPC_FEC_downstream.md)
+  - [M11_Turbo_FEC_upstream.md](03_Mo_dun/M11_Turbo_FEC_upstream.md)
+  - [M12_Burst_TX_VSAT.md](03_Mo_dun/M12_Burst_TX_VSAT.md)
+  - [M13_Burst_RX_da_carrier_HUB.md](03_Mo_dun/M13_Burst_RX_da_carrier_HUB.md)
+  - [M14_Network_time_timestamp_timed_TX.md](03_Mo_dun/M14_Network_time_timestamp_timed_TX.md)
+  - [M15_Ranging_frequency_power_control.md](03_Mo_dun/M15_Ranging_frequency_power_control.md)
+  - [M16_MAC_NCC_signalling_scheduler.md](03_Mo_dun/M16_MAC_NCC_signalling_scheduler.md)
+  - [M17_Linux_BSP_DMA_packet_driver.md](03_Mo_dun/M17_Linux_BSP_DMA_packet_driver.md)
+  - [M18_IP_encapsulation_QoS.md](03_Mo_dun/M18_IP_encapsulation_QoS.md)
+  - [M19_NMS_security_update_recovery.md](03_Mo_dun/M19_NMS_security_update_recovery.md)
+  - [M20_Verification_calibration_acceptance.md](03_Mo_dun/M20_Verification_calibration_acceptance.md)
+- **04_Quy_uoc/**
+  - [00_Bo_quy_uoc_project.md](04_Quy_uoc/00_Bo_quy_uoc_project.md)
+  - [01_Repo_ID_Git_va_tai_lieu.md](04_Quy_uoc/01_Repo_ID_Git_va_tai_lieu.md)
+  - [02_RTL_clock_reset_CDC_constraints.md](04_Quy_uoc/02_RTL_clock_reset_CDC_constraints.md)
+  - [03_DSP_don_vi_fixedpoint_IQ.md](04_Quy_uoc/03_DSP_don_vi_fixedpoint_IQ.md)
+  - [04_Time_epoch_timing_sign.md](04_Quy_uoc/04_Time_epoch_timing_sign.md)
+  - [05_Interface_ABI_wire_DMA.md](04_Quy_uoc/05_Interface_ABI_wire_DMA.md)
+  - [06_Verification_trace_va_calibration.md](04_Quy_uoc/06_Verification_trace_va_calibration.md)
+  - [07_Build_release_security_license.md](04_Quy_uoc/07_Build_release_security_license.md)
+  - [08_HW_RF_calibration_va_bien_ban.md](04_Quy_uoc/08_HW_RF_calibration_va_bien_ban.md)
+- **05_Ke_hoach_va_Kiem_thu/**
+  - [07_WBS_nhan_luc_va_lo_trinh_24_thang.md](05_Ke_hoach_va_Kiem_thu/07_WBS_nhan_luc_va_lo_trinh_24_thang.md)
+  - [08_Kiem_thu_nghiem_thu_rui_ro_va_chi_phi.md](05_Ke_hoach_va_Kiem_thu/08_Kiem_thu_nghiem_thu_rui_ro_va_chi_phi.md)
+  - [Acceptance_v2.md](05_Ke_hoach_va_Kiem_thu/Acceptance_v2.md)
+  - [Ket_qua_kiem_tra_ho_so_v2.md](05_Ke_hoach_va_Kiem_thu/Ket_qua_kiem_tra_ho_so_v2.md)
+- **06_Nguon/**
+  - [09_Nguon_tham_khao_va_truy_vet.md](06_Nguon/09_Nguon_tham_khao_va_truy_vet.md)
+  - [Nguon_kiem_chung_v2.md](06_Nguon/Nguon_kiem_chung_v2.md)
+- **07_Bieu_mau/**
+  - [01_Requirement_template.md](07_Bieu_mau/01_Requirement_template.md)
+  - [02_ICD_template.md](07_Bieu_mau/02_ICD_template.md)
+  - [03_ADR_CR_template.md](07_Bieu_mau/03_ADR_CR_template.md)
+  - [04_Test_evidence_template.md](07_Bieu_mau/04_Test_evidence_template.md)
+  - [05_Calibration_template.md](07_Bieu_mau/05_Calibration_template.md)
+- **08_Cau_hinh/**
+  - [baseline_v2.json](08_Cau_hinh/baseline_v2.json)
+  - [build_lock.template.json](08_Cau_hinh/build_lock.template.json)
+- **09_Tools/**
+  - [validate_docs.py](09_Tools/validate_docs.py)
+- [README.md](README.md)
+- [SHA256SUMS.txt](SHA256SUMS.txt)
+- [package_manifest.json](package_manifest.json)
+- [FILE_INDEX.md](FILE_INDEX.md)
